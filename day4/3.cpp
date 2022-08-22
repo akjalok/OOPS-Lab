@@ -3,8 +3,18 @@ using namespace std;
 class Sort{
     int arr[10];
     public:
-    void sorter(int *arr){
-        sort(arr,arr+10);
+    void sorter(int *arr)
+    {
+        int temp;
+        for(int i=0;i<10;i++){
+        for(int j=i;j<10;j++){
+            if(arr[i]>arr[j]){
+                temp=arr[j];
+                arr[j]=arr[i];
+                arr[i]=temp;
+            }
+        }
+    }
         cout<<"The highest number is: "<<arr[9];
     }
 };
