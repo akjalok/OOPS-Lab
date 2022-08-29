@@ -37,7 +37,7 @@ class B{
 };
 void cmpp(A &r, B &s){
     for(int i=0;i<r.n;i++){
-        if(r.pri[i]<s.a&&r.pri[i]>s.b){
+        if(r.pri[i]<=s.a&&r.pri[i]>=s.b){
             cout<<"\nName of the book:"<<r.nam[i]<<'\n';
             cout<<"Name of the author:"<<r.aut[i]<<'\n';
             cout<<"Price of the book:"<<r.pri[i]<<'\n';

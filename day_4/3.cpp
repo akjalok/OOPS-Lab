@@ -2,7 +2,7 @@
 using namespace std;
 class B;
 class A{
-    float a,k=0;
+    int a,k=0;
        public:
     void input(){
         k++;
@@ -16,7 +16,7 @@ class A{
     friend void cmpp(A &,B &);
 };
 class B{
-    float b,t=0;
+    int b,t=0;
     public:
     void input(){
         t++;
