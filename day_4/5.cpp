@@ -30,7 +30,7 @@ class B{
     void input(){
         cout<<"Enter the upper limit of the price range:";
         cin>>a;
-        cout<<"Enter the lower limit of the price range";
+        cout<<"Enter the lower limit of the price range:";
         cin>>b;
     }
     friend void cmpp(A &,B &);
