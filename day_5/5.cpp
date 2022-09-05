@@ -10,6 +10,6 @@ void Count::display()
 {cout<<"Number of objects:"<<a;}
 int Count::a;
 int main(){
-Count a,b,c,d;
+Count a,b,c,d,e,f;
 Count::display();
 }
